@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+#decrease {
+  background-color: lightcoral;
+  border-radius: 5%;
+  border: lightcoral;
+  padding: 5px;
+}
+
+#increase {
+  background-color: lightgreen;
+  border-radius: 5%;
+  border: lightgreen;
+  padding: 5px;
+}
+
+#reset {
+  background-color: lightgrey;
+  border-radius: 5%;
+  border: lightgrey;
+  padding: 5px;
+}
+
+#number {
+  font-size: 3rem;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,78 @@
+// const num_1 = document.getElementById("num_1");
+// const result = document.getElementById("result");
+// let res = "";
+// const marks = num_1.value;
+
+// function check() {
+//     if (num_1.value < 0 || num_1.value>100){
+//         alert('Enter a value between 0 to 100')
+//     }
+//     if (num_1.value < 50 && num_1.value >= 0) {
+//         console.log("Fail");
+//         res = 'Fail'
+//         result.textContent= res;
+
+//     }
+//     else if (num_1.value >= 50 && num_1.value < 60) {
+//         console.log("E")
+//         res = "E"
+//         // result.textContent(res);
+//         result.textContent= res;
+//     }
+//     else if (num_1.value >= 60 && num_1.value < 70) {
+//         console.log("D")
+//         res = "D"
+//         // result.textContent(res);
+//         result.textContent= res;
+//     }
+//     else if (num_1.value >= 70 && num_1.value < 80) {
+//         console.log("C")
+//         res = "C"
+
+//         // result.textContent(res);
+//         result.textContent= res;
+//     }
+//     else if (num_1.value >= 80 && num_1.value < 90) {
+//         console.log("B")
+//         res = "B"
+//         // result.textContent(res);
+//         result.textContent= res;
+//     }
+//     else if (num_1.value >= 90 && num_1.value <= 100) {
+//         console.log("A")
+//         res = "A"
+//         // result.textContent(res);
+//         result.textContent= res;
+//     }
+
+
+// }
+
+// for(let x = 1;x<=10;x++){
+//     console.log(x);
+// }
+
+
+// scoping in variables
+
+// function printifgeek(text) {
+//     if (text === 'geeksforgeeks' || text === 'gfg') {
+//         var msg = "verified geek"
+//         console.log(msg,"block-level-scope")
+//     }
+//     console.log(msg,"function-level-scope")
+// }
+// // console.log(msg,"global-scope")
+
+// printifgeek('gfg');
+
+// function printifgeek(text) {
+//     if (text === 'geeksforgeeks' || text === 'gfg') {
+//         const msg = "verified geek"
+//         console.log(msg,"block-level-scope")
+//     }
+//     console.log(msg,"function-level-scope")
+// }
+// // console.log(msg,"global-scope")
+
+// printifgeek('gfg');
